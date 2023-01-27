@@ -1,1 +1,0 @@
-Training - Python Microservice with CI CD
