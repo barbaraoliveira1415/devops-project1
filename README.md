@@ -13,4 +13,3 @@ This is a Python Project using DevOps
 Steps:
 
 1. Creating Python Virtual Environment: 'python3 -m venv ~/.venv' or 'virtualenv ~/.venv
->>>>>>> f26385e10836a71ecf5f378f1c2756e713dc6277
