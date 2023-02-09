@@ -10,5 +10,6 @@ lint:
 	pylint --disable=R,C *.py mylib/*.py #ignore warnings every python file
 test:
 	#test
+	python -m pytest -vv --cov=mylib test_logic.py
 deploy:
 	#deploy
