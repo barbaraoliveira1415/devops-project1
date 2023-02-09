@@ -21,3 +21,4 @@ Project Steps:
 3. Populate Makefile
 4. Continuous Integration - checking also in case of errors
 ![image](https://user-images.githubusercontent.com/29230823/217687166-55d833bd-5512-41c3-bb39-3c298cc1bed5.png)
+5. Build cli with fire to test logic: ./cli-fire.py --help
