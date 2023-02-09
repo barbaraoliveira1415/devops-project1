@@ -15,3 +15,4 @@ Project Steps:
 1. Creating Python Virtual Environment: 'python3 -m venv ~/.venv' or 'virtualenv ~/.venv
 2. Creating empty files
 3. Populate Makefile
+4. Continuous Integration - checking also in case of errors
