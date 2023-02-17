@@ -1,7 +1,6 @@
 import fastapi
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
-import requests
 from main import app
 
 #app = FastAPI()
