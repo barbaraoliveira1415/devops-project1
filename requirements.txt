@@ -4,3 +4,8 @@ pytest-cov==3.0.0
 pylint==2.13.5
 black==22.3.0
 fire==0.5.0
+fastapi[all]==0.90.0
+uvicorn==0.20.0
+deep-translator
+requests
+httpx

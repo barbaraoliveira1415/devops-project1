@@ -1,5 +1,5 @@
 from mylib.logic import wiki
 
+
 def test_wiki():
-    assert "Japanese" in wiki()
-    
+    assert "Hunter" in wiki()
