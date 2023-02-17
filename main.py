@@ -1,7 +1,5 @@
-import fastapi # pylint: disable=import-error
 from fastapi import FastAPI # pylint: disable=import-error
 import uvicorn # pylint: disable=import-error
-import requests
 
 from mylib.logic import search_wiki
 from mylib.logic import wiki as wikilogic
