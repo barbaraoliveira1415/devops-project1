@@ -18,4 +18,8 @@ run:
 	docker run -p 127.0.0.1:8080:8080 7e66137da068
 deploy:
 	#deploy
+	aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 208255398646.dkr.ecr.us-east-1.amazonaws.com
+	docker build -t fastwiki .
+	docker tag fastwiki:latest 208255398646.dkr.ecr.us-east-1.amazonaws.com/fastwiki:latest
+	docker push 208255398646.dkr.ecr.us-east-1.amazonaws.com/fastwiki:latesttouc
 all: install lint test deploy
