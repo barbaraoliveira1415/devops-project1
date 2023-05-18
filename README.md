@@ -1,8 +1,6 @@
 [![Python App test using github actions](https://github.com/barbaraoliveira1415/devops-project1/actions/workflows/devops.yml/badge.svg)](https://github.com/barbaraoliveira1415/devops-project1/actions/workflows/devops.yml)
 
-## Devops python project
-
-This is a Python Project using DevOps
+## Python project following CI/CD
 
 ## Scaffold of the project:
 Code: 
